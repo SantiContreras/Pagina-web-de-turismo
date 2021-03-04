@@ -4,6 +4,13 @@ body{
     font-family: 'Quicksand', sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+
 .navbar{
 
 	background-color: #22456A;
@@ -30,11 +37,11 @@ body{
 
 #santi{
 
-	background-image: url('../img/paisaje14.jpg');
+	background-image: url('../img/paisaje11.jpg');
 	background-size: cover;
 	padding-top: 90px;
 	min-height: 700px;
-	color: #ffffff;
+	color: #125879;
 
 }
 
@@ -47,14 +54,15 @@ body{
 }
 
 .content-center p{
-	color: #aaa666;
-	font-size: 18px;
+	color: #996669;
+	font-size: 20px;
 	line-height: 1.8;
 	margin-bottom: 0;
+	font-weight: 200;
 }
 
 .content-center h1{
-	color: #F8F3FC;
+	color: #C0C0C0;
 	font-size: 40px;
 	font-weight: 600;
 	line-height: 80px;
@@ -84,8 +92,64 @@ body{
 	font-size: 
 }
 
+.portafolio-detalle h1{
+	font-size: 66px;
+	font-weight: 700;
+	line-height: 80px;
+	color: #DCDCDC;
+	margin-top: 10px;
+}
 
-@media (max-width: 575.98px) { ... }
+section{
+	padding: 120px 0;
+
+}
+
+section p{
+	color: #125474;
+}
+
+.portafolio-conteiner{
+    position: relative;
+    overflow: hidden;
+    margin: 10px 0;
+    border-radius: 0px;
+}
+
+.portafolio-detalle{
+
+	position: absolute;
+	bottom: 25px;
+	left: 25px;
+	z-index: 9000;
+	
+}
+
+.portafolio-detalle a{
+
+	color: #F0DCE2;
+
+}
+
+.portafolio-conteiner img{
+	-moz-transition: all 0.8s;
+	-webkit-transition: all 0.8s;
+	transition: 0.8s;
+	-webkit-transition:scale(1.2);
+
+}
+
+.portafolio-conteiner:hover img{
+
+	-moz-transform:scale(1.2);
+	-webkit-transform:scale(1.2);
+	transform:scale(1.2);
+
+}
+@media (max-width: 575.98px) {
+
+	h1{ font-size: 40px; line-height: normal; }
+}
 
 
 @media (min-width: 576px) and (max-width: 767.98px) { ... }
