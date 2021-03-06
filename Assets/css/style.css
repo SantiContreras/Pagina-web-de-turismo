@@ -37,7 +37,7 @@ a:hover{
 
 #santi{
 
-	background-image: url('../img/paisaje11.jpg');
+	background-image: url('../img/paisaje13.jpg');
 	background-size: cover;
 	padding-top: 90px;
 	min-height: 700px;
@@ -54,18 +54,39 @@ a:hover{
 }
 
 .content-center p{
-	color: #996669;
+	color: #696969;
 	font-size: 20px;
 	line-height: 1.8;
 	margin-bottom: 0;
-	font-weight: 200;
+	font-weight: 300;
 }
 
 .content-center h1{
-	color: #C0C0C0;
+	color: #2F4F4F;
 	font-size: 40px;
 	font-weight: 600;
 	line-height: 80px;
+}
+
+.content-seccion-dos{
+	max-width: 800px;
+	margin: 0 auto 60px auto;
+	text-align: center;
+}
+
+.content-seccion-dos h1{
+    color: #000000;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 80px;
+    text-align: center;
+}
+
+.content-seccion-dos p{
+	font-weight: 400;
+	line-height: 1.8;
+	font-size: 25px;
+	margin-bottom: 0;
 }
 
 .btn{
@@ -145,6 +166,11 @@ section p{
 	-webkit-transform:scale(1.2);
 	transform:scale(1.2);
 
+}
+
+.container .imgu{
+	width: 400px;
+	height: 300px;
 }
 @media (max-width: 575.98px) {
 
