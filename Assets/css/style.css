@@ -172,16 +172,108 @@ section p{
 	width: 400px;
 	height: 300px;
 }
+
+.member-container{
+	position: relative;
+	margin: 10px;
+}
+
+.member-detail{
+	position: absolute;
+	color: #ffffff;
+	bottom: 0px;
+	left: 20px;
+}
+
+.member-detail span{
+		font-size: 14px;
+}
+
+.member-detail i{
+	padding: 0 5px;
+}
+
+.member-detail a i {
+	font-size: 22px;
+	color: #ffffff;
+}
+
+.planes-container{
+    margin:15px 0;
+}
+
+.planes{
+   padding: 50px 80px;
+   border-radius: 2px;
+   min-width: : 450px;
+}
+
+.planes-blanco{
+  background-color: #F4FBFB ;
+  border: 2px solid #0E1313 ;
+}
+
+.planes-negro{
+   background-color: #242626 ;
+   border: 2px solid #171919 ;
+   color: #EBF5F5 ;
+}
+
+.btn-blanco{
+	background-color: #2B2E2E;
+	color: #F6FCFC;
+	border: 2px solid #1E1E1E;
+}
+
+.btn-negro{
+	background-color: #1E1E1E;
+	color: #E3EDED;
+	border: 2px solid #E3EDED;
+}
+
+.botonPlanes{
+	padding: 10px 140px;
+	
+	min-width:160px;
+
+	
+
+}
+
+.planes h2{
+	font-size: 70px;
+	font-weight: 600;
+
+}
+
+.planes span{
+	font-size: 15px;
+}
+
+.planes ul{
+	list-style-type: square;
+}
 @media (max-width: 575.98px) {
 
 	h1{ font-size: 40px; line-height: normal; }
+	h5{
+		margin-bottom: 0px;
+	}
+	.portafolio-detale{font-size: 32px;}
+	.planes{min-width: unset;padding: 40px;}
 }
 
 
-@media (min-width: 576px) and (max-width: 767.98px) { ... }
+@media (min-width: 576px) and (max-width: 767.98px) { 
+   
+ }
 
 
-@media (min-width: 768px) and (max-width: 991.98px) { ... }
+@media (min-width: 768px) and (max-width: 991.98px) { 
+		.planes{min-width: unset;padding: 40px 20px;}
+
+
+ }
 
 
 @media (min-width: 992px) and (max-width: 1199.98px) { ... }
