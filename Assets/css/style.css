@@ -13,12 +13,12 @@ a:hover{
 
 .navbar{
 
-	background-color: #22456A;
+	background-color:   #d7dedc  ;
 	min-height: 90px;
 }
 
 .navbar-brand {
-    color: #DDECF6;
+    color:  #161617 ;
     font-size: 25px;
 }
 
@@ -28,16 +28,16 @@ a:hover{
 }
 
 .nav-link{
-	color: #CFDBE8;
+	color:  #161617 ;
 }
 
 .nav-link:hover{
-	color: #09A5AF;
+	color:  #26318e ;
 }
 
 #santi{
 
-	background-image: url('../img/paisaje13.jpg');
+	background-image: url('../img/paisaje15.jpg');
 	background-size: cover;
 	padding-top: 90px;
 	min-height: 700px;
@@ -325,6 +325,42 @@ section p{
 	text-align: center;
 }
 
+.form-control{
+	margin-top: 12px;
+	border: 1px solid  #d4d1d5 ;
+	padding: 15px;
+	border-radius: 5px;
+	height: auto;
+}
+.form-control:focus{
+   border: 1px solid    #1c2256  ;
+   outline: none;
+   box-shadow: none;
+}
+
+#footer{
+	padding: 80px;
+	text-align: center;
+	color: #ffffff;
+}
+
+#footer a{
+	color: #ffffff;
+}
+
+#footer a:hover{
+	color: #ffffff;
+}
+
+.footer list-inline-item , list-inline {
+
+	padding: 10 px 15px;
+
+}
+
+
+
+
 
 @media (max-width: 575.98px) {
 
@@ -334,6 +370,10 @@ section p{
 	}
 	.portafolio-detale{font-size: 32px;}
 	.planes{min-width: unset;padding: 40px;}
+	.footer-menu{ display: block; 
+          padding: 20px 0 ;
+          font-size: 20px;
+	 }
 }
 
 
